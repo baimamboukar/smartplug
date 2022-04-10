@@ -1,0 +1,56 @@
+name: smart_plug
+description: Smart plug.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  auto_route: ^3.2.4
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_charts: ^0.5.0
+  flutter_native_splash: ^2.1.3+1
+  charts_flutter: ^0.12.0
+  google_fonts: ^2.3.1
+  lottie: ^1.2.2
+  after_layout:
+  response: ^0.1.1
+  provider:
+  font_awesome_flutter:
+  flutter_sequence_animation: ^3.0.1
+  bezier_chart: ^1.0.16
+  swipe_gesture_recognizer: ^0.0.2
+  awesome_dialog: ^1.1.2
+  flutter_platform_widgets: ^0.51.0
+  shared_preferences: ^0.5.7+3
+
+dev_dependencies:
+  auto_route_generator: null
+  build_runner: null
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/fonts/
